@@ -5,6 +5,10 @@ This file records notable changes to `ccrit-pystats` using the
 
 ## [Unreleased]
 
+### Changed
+
+- Documented how to install the latest GitHub release with pip.
+
 ## [0.1.3] - 2026-11-20
 
 ### Changed

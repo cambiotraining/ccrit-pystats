@@ -4,10 +4,20 @@
 helper is the diagnostic panel from the
 [Core Statistics course](https://cambiotraining.github.io/corestats/).
 
-## Install
+## Install the latest release
 
-From a copy of this repository, run this command in the Python environment
-you use for the course.
+Open the [latest GitHub release](https://github.com/cambiotraining/ccrit-pystats/releases/latest)
+and copy the link to the `.whl` file under **Assets**. In the Python
+environment you use for the course, run `python -m pip install` with that
+link. For version `0.1.3`, the command is
+
+```sh
+python -m pip install "https://github.com/cambiotraining/ccrit-pystats/releases/download/v0.1.3/ccrit_pystats-0.1.3-py3-none-any.whl"
+```
+
+### Install from a local checkout
+
+Run this command from the repository folder.
 
 ```sh
 python -m pip install .
